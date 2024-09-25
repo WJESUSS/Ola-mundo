@@ -42,3 +42,14 @@ nav{
     justify-content: center;
     margin-right:40px;
 }
+p{
+    color: var(--cor5);
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
