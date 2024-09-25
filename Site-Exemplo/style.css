@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+:root{
+    --cor1:#FFFFFF;
+    --cor2:#22C640;
+    --cor3:#239C48;
+    --cor4:#397144;
+    --cor5:#84C48F;
+    --cor6:#32E668;
+
+}
+body{
+    background-color:var(--cor1);
+}
+header{
+    background-color:var(--cor2);
+    padding:10px;
+    text-align:center;
+    color: var(--cor1);
+}
+
+a{
+    color: var(--cor4);
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+    display:inline;
+    text-align: center;
+    
+}
+a:hover{
+    color: var(--cor4);
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--cor4);
+    display: flex;
+    justify-content: center;
+    margin-right:40px;
+}
